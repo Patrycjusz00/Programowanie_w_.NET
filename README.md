@@ -1,12 +1,14 @@
 // Kod do projektu
 
-using System;
-using System.IO;
+    using System;
+    using System.IO;
 
-namespace AplikacjaSzkoleniowa
-{
+    namespace AplikacjaSzkoleniowa
+    {
+
     class Program
     {
+    
         // Klasa reprezentująca uczestnika szkolenia
         public class Uczestnik
         {
@@ -14,7 +16,7 @@ namespace AplikacjaSzkoleniowa
             public string Nazwisko { get; set; }
             public string Adres { get; set; }
         }
-
+        
         // Klasa reprezentująca kurs
         public class Kurs
         {
@@ -106,4 +108,4 @@ namespace AplikacjaSzkoleniowa
             Console.WriteLine($"Kurs: {szkolenie.Kurs.NazwaKursu}, Data rozpoczęcia: {szkolenie.Kurs.DataRozpoczecia}, Czas trwania: {szkolenie.Kurs.CzasTrwaniaDni} dni, Opis: {szkolenie.Kurs.Opis}");
         }
     }
-}
+    }
